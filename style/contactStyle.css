@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(0deg, #0D0C0E 58.84%, #FE7E4C 253.77%);
+}
+
+#backgroundImage{
+    width: 100vw;
+    height: 125vw;
+    padding: 0;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+}
+
+nav > ul > li:nth-child(3){
+    background-color: #FE7E4C;
+}
+
+@media (min-width: 900px) {
+
+
+    body{
+        background-image: url("images/contactBackground.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right top;
+    }
+
+    #backgroundImage{
+        display: none;
+    }
+    #bodyText{
+        margin-top: 5em;
+    }
+}

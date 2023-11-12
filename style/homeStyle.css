@@ -1,0 +1,22 @@
+#backgroundImage{
+    width: 100vw;
+    height: 100vw;
+}
+
+nav > ul > li:nth-child(1){
+    background-color: #FE7E4C;
+}
+
+@media (min-width: 900px) {
+
+    body{
+        background-image: url("images/homeBackground.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right top;
+    }
+
+    #backgroundImage{
+        display: none;
+    }
+}

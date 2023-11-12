@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Orbitron;
+    src: url("Orbitron-VariableFont_wght.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: OrbitronBold;
+    src: url("Orbitron-VariableFont_wght.ttf");
+    font-weight: 900;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --TextColor: #FFFFFF;
+    --SecondColor: #FE7E4C;
+
+    color: var(--TextColor);
+    font-family: Orbitron;
+    text-align: center;
+}
+
+body{
+    color: white;
+    background: radial-gradient(262.48% 158.31% at 50% 42%, #050507 16.15%, #FE7E4C 77.08%);
+    min-height: 100vh;
+}
+
+h1{
+    color: var(--SecondColor);
+    font-family: OrbitronBold;
+    margin: .3em;
+}
+
+nav{
+    margin: .3em;
+}
+
+nav ul{
+    list-style: none;  
+}
+
+nav > ul > li{
+    margin: .3em auto;
+    border: solid 0;
+    border-radius: .4em;
+    width: 50vw;
+    padding: .2em;
+}
+
+#bodyText{
+    padding: 2em;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+p{
+    margin: 2em 0;
+}
+
+@media (min-width: 900px) {
+    :root{
+        text-align: left;
+        font-size: 1.2em;
+    }
+
+    #headerDiv{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    h1{
+        margin: .5em;
+        margin-top: .3em;
+        font-size: 3em;
+    }
+
+    nav{
+        text-align: center;
+        margin-left: 2em;
+        flex: 0 0 50vw;
+    }
+
+    nav ul{
+        list-style: none;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 3em;
+    }
+    
+    nav > ul > li{
+        border: solid 0;
+        border-radius: .4em;
+        padding: .15em;
+        width: 5em;
+        flex: 0 0 6em;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #bodyText{
+        padding: 2em;
+        width: 40vw;
+        text-align: center;
+        margin-left: 6vw;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

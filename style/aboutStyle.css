@@ -1,0 +1,35 @@
+nav > ul > li:nth-child(2){
+    background-color: #FE7E4C;
+}
+
+
+@media (min-width: 900px) {
+
+    :root{
+        text-align: center;
+    }
+
+    body{
+    background: linear-gradient(270deg, #070709 0%, #FE7E4C 228.89%);
+    }
+
+    #aboutText{
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 4em;
+        text-align: left;
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    hr{
+        width: 20em;
+        margin: auto;
+    }
+
+    #bodyText{
+        padding: 2em;
+        width: auto;
+        margin-left: 0;
+    }
+}
